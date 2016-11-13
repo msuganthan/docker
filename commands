@@ -1,0 +1,6 @@
+docker build .
+docker run --name helloWorld 8e04879ad8c8
+
+docker rm helloWorld
+
+chmod +x script.sh
